@@ -14,7 +14,7 @@ Se consiguieron tres objetivos principales en las prácticas documentadas:
 * Se activaron las **Notificaciones DNS** para que el Maestro alerte inmediatamente al Esclavo sobre cambios de zona.
 
 ### 2. Seguridad (Control de Transferencia de Zona)
-* Se implementó una política de seguridad estricta utilizando la directiva **`allow-transfer { 192.168.1.26; none; [cite_start]}`** en el Maestro.
+* Se implementó una política de seguridad estricta utilizando la directiva **`allow-transfer { 192.168.1.26; none; }`** en el Maestro.
 * Se probó con éxito el **rechazo de transferencia de zona** (AXFR) desde un cliente no autorizado (`192.168.1.23`), confirmando la protección contra la recopilación de datos.
 
 ### 3. Resolución Inversa (PTR)
